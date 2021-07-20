@@ -79,6 +79,7 @@ def display_element():
     strVY = str('{0:.2f}'.format(-VY))
     imgVitesse = FONT.render('Vitesse ascentionnelle : '+ strVY , True, (255,255,255))
     WIN.blit( imgVitesse , ( 20,20))
+    # On affiche le carburant restant
     imgFuel = FONT.render('Litres carburant restant : '+ str(FUEL) , True, (255,255,255))
     WIN.blit( imgFuel , ( 20,50))
     
